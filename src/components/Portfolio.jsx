@@ -8,10 +8,10 @@ import recipebook from  "../assets/portfolio/recipe-book.png"
 const Portfolio = () => {
   const portfolios = [
     {
-      id: 1,
-      src: todolist,
-      link: 'https://to-do-listttt.netlify.app',
-      repo: 'https://github.com/nakul412/Todo-list'
+      id:1,
+      src: recipebook,
+      link: 'https://recipeapp-rho.vercel.app/',
+      repo: 'https://recipeapp-rho.vercel.app/'
     },
     {
       id: 2,
@@ -26,11 +26,12 @@ const Portfolio = () => {
       repo: 'https://github.com/nakul412/tvshow.github.io'
     },
     {
-      id:4,
-      src: recipebook,
-      link: 'https://recipebook-weld.vercel.app/',
-      repo: 'https://github.com/nakul412/recipebook'
+      id: 4,
+      src: todolist,
+      link: 'https://to-do-listttt.netlify.app',
+      repo: 'https://github.com/nakul412/Todo-list'
     },
+   
   ];
 
   return (
