@@ -4,6 +4,7 @@ import todolist from "../assets/portfolio/todolist.png"
 import tvshowapp from "../assets/portfolio/tvshowapp.png";
 import weatherapp from "../assets/portfolio/weather-app.png";
 import recipebook from  "../assets/portfolio/recipe-book.png"
+import ecommerce from "../assets/portfolio/ecommerce.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -14,23 +15,30 @@ const Portfolio = () => {
       repo: 'https://recipeapp-rho.vercel.app/'
     },
     {
-      id: 2,
+      id:2,
+      src:ecommerce,
+      link:"https://ecommerce-site-jkf3-git-main-nakul412.vercel.app",
+      repo:"https://github.com/nakul412/EcommerceSite",
+    },
+    {
+      id: 3,
       src: weatherapp,
       link: 'https://my-weather-app-reactttt.netlify.app',
       repo: 'https://github.com/nakul412/weather-app'
     },
     {
-      id: 3,
+      id: 4,
       src: tvshowapp,
       link: 'https://nakul412.github.io/tvshow.github.io/',
       repo: 'https://github.com/nakul412/tvshow.github.io'
     },
     {
-      id: 4,
+      id: 5,
       src: todolist,
       link: 'https://to-do-listttt.netlify.app',
       repo: 'https://github.com/nakul412/Todo-list'
     },
+   
    
   ];
 
