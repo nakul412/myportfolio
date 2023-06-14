@@ -5,39 +5,47 @@ import tvshowapp from "../assets/portfolio/tvshowapp.png";
 import weatherapp from "../assets/portfolio/weather-app.png";
 import recipebook from  "../assets/portfolio/recipe-book.png"
 import ecommerce from "../assets/portfolio/ecommerce.png";
+import chatmate from "../assets/portfolio/chatmate.png"
 
 const Portfolio = () => {
   const portfolios = [
     {
       id:1,
+      src:chatmate,
+      link:"https://chatmate-backend.onrender.com/Chat",
+      repo:"  https://github.com/nakul412/ChatMate",
+    },
+    {
+      id:2,
       src: recipebook,
       link: 'https://recipeapp-rho.vercel.app/',
       repo: 'https://recipeapp-rho.vercel.app/'
     },
     {
-      id:2,
+      id:3,
       src:ecommerce,
       link:"https://ecommerce-site-jkf3-git-main-nakul412.vercel.app",
       repo:"https://github.com/nakul412/EcommerceSite",
     },
     {
-      id: 3,
+      id: 4,
       src: weatherapp,
       link: 'https://my-weather-app-reactttt.netlify.app',
       repo: 'https://github.com/nakul412/weather-app'
     },
     {
-      id: 4,
+      id: 5,
       src: tvshowapp,
       link: 'https://nakul412.github.io/tvshow.github.io/',
       repo: 'https://github.com/nakul412/tvshow.github.io'
     },
     {
-      id: 5,
+      id: 6,
       src: todolist,
       link: 'https://to-do-listttt.netlify.app',
       repo: 'https://github.com/nakul412/Todo-list'
     },
+    
    
    
   ];
