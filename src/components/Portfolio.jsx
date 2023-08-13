@@ -6,6 +6,7 @@ import weatherapp from "../assets/portfolio/weather-app.png";
 import recipebook from  "../assets/portfolio/recipe-book.png"
 import ecommerce from "../assets/portfolio/ecommerce.png";
 import chatmate from "../assets/portfolio/chatmate.png"
+import gym from "../assets/portfolio/gym.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -28,19 +29,25 @@ const Portfolio = () => {
       repo:"https://github.com/nakul412/EcommerceSite",
     },
     {
-      id: 4,
+      id:4,
+      src:gym,
+      link:"https://eatsnlifts.netlify.app/",
+      repo:"https://github.com/nakul412/Eats-Lifts",
+    },
+    {
+      id: 5,
       src: weatherapp,
       link: 'https://my-weather-app-reactttt.netlify.app',
       repo: 'https://github.com/nakul412/weather-app'
     },
     {
-      id: 5,
+      id: 6,
       src: tvshowapp,
       link: 'https://nakul412.github.io/tvshow.github.io/',
       repo: 'https://github.com/nakul412/tvshow.github.io'
     },
     {
-      id: 6,
+      id: 7,
       src: todolist,
       link: 'https://to-do-listttt.netlify.app',
       repo: 'https://github.com/nakul412/Todo-list'
